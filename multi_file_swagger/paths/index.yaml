@@ -1,0 +1,3 @@
+# EXAMPLE
+/api/hello/{name}:
+  $ref: ./common/hello.yaml

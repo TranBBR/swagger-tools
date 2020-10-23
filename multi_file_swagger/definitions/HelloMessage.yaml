@@ -1,0 +1,5 @@
+description: hello message
+type: object
+properties:
+  message:
+    type: string

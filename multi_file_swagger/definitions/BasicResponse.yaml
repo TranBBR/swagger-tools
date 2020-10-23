@@ -1,0 +1,7 @@
+description: response with simple status and message
+type: object
+properties:
+  status:
+    type: string
+  message:
+    type: string

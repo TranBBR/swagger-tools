@@ -1,0 +1,23 @@
+get:
+  tags:
+    - hello
+  summary: get hello
+  description: "return hello message"
+  operationId: hello
+  produces:
+    - application/json
+  parameters:
+    - name: name
+      in: path
+      type: string
+      description: name of user
+      required: false
+  responses:
+    "200":
+      description: Hello Message
+      schema:
+        $ref: "#/definitions/HelloMessage"
+    "403":
+      description: Forbidden
+      schema:
+        $ref: "#/definitions/BasicResponse"

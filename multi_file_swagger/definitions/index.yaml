@@ -1,0 +1,4 @@
+BasicResponse:
+  $ref: ./BasicResponse.yaml
+HelloMessage:
+  $ref: ./HelloMessage.yaml

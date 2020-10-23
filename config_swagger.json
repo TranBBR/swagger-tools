@@ -1,0 +1,8 @@
+{
+	"useTags": true,
+	"ngVersion": 6,
+	"basePackage": "com.mycompany.myapp",
+	"apiPackage": "com.mycompany.myapp.api",
+	"modelPackage": "com.mycompany.myapp.model",
+	"configPackage": "com.mycompany.myapp.config"
+}
